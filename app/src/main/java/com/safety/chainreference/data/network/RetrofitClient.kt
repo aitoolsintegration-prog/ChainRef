@@ -24,6 +24,7 @@ object RetrofitClient {
         .writeTimeout(30, TimeUnit.SECONDS)
         .build()
 
+
     // Retrofit instance
     private val retrofit: Retrofit = Retrofit.Builder()
         .baseUrl(BASE_URL)
